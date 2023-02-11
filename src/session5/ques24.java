@@ -1,10 +1,11 @@
-package session4;
-public class ques9 {
+package session5;
+public class ques24 {
 	public static void main(String[] args) {
 		int n=5;
 		int nst=1;
 		int row=1;
 		int nsp=n-1;
+		int num=1;
 		while(row<=n){
 			int csp=1;
 			int cst=1;
@@ -13,11 +14,7 @@ public class ques9 {
 				csp++;
 			}
 			while(cst<=nst){
-				if(cst %2 ==0){
-					System.out.print("! ");
-				}
-				else
-				System.out.print("* ");
+				System.out.print(cst+" ");
 				cst++;
 			}
 			System.out.println();

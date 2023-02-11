@@ -1,5 +1,5 @@
-package session4;
-public class ques9 {
+package session5;
+public class ques11 {
 	public static void main(String[] args) {
 		int n=5;
 		int nst=1;
@@ -13,10 +13,6 @@ public class ques9 {
 				csp++;
 			}
 			while(cst<=nst){
-				if(cst %2 ==0){
-					System.out.print("! ");
-				}
-				else
 				System.out.print("* ");
 				cst++;
 			}
