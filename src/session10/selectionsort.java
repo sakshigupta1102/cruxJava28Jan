@@ -1,5 +1,4 @@
 package session10;
-
 public class selectionsort {
 	public static void main(String[] args) {
 		int[] arr = { 5, 4, 8, 2, 1 };

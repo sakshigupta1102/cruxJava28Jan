@@ -1,5 +1,4 @@
 package session10;
-
 public class insertionsort {
 	public static void main(String[] args) {
 		int[] arr = { 5, 4, 8, 1, 2 };
