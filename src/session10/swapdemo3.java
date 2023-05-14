@@ -8,15 +8,11 @@ public class swapdemo3 {
 		System.out.println(arr[0] + " " + other[0]);
 		Swap(arr, other);
 		System.out.println(arr[0] + " " + other[0]);
-
 	}
-
 	public static void Swap(int[] arr, int[] other) {
-
 		int[] temp = arr;
 		arr = other;
 		other = temp;
-
 	}
 
 }

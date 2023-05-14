@@ -3,7 +3,6 @@ package session10;
 public class swapdemo1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a = 10;
 		int[] arr = { 10, 20, 30, 40, 50 };
 		System.out.println(arr[0] + " " + arr[1]);
 		swap(arr[0], arr[1]);
