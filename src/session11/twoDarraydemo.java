@@ -1,7 +1,5 @@
 package session11;
-
 import java.util.Scanner;
-
 public class twoDarraydemo {
 	public static void main(String[] args) {
 		int[][] arr2 = { { 10, 20, 30 }, { 40, 50, 60 }, { 70, 80, 90 } };
@@ -9,9 +7,7 @@ public class twoDarraydemo {
 		System.out.println("****************");
 		transposeinplace(arr2);
 		display(arr2);
-
 	}
-
 	public static void display(int[][] arr) {
 		for (int row = 0; row < arr.length; row++) {
 			for (int col = 0; col < arr[0].length; col++) {
@@ -60,7 +56,6 @@ public class twoDarraydemo {
 			}
 		}
 		return ans;
-
 	}
 	public static void transposeinplace(int[][] arr){
 		for(int i=0;i<arr.length;i++){

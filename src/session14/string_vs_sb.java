@@ -8,9 +8,9 @@ public class string_vs_sb {
 	}
 	public static void appendString() {
 		int n = 100000;
-		StringBuilder str= new StringBuilder();
+		String str= "";
 		for (int i = 1; i <= n; i++) {
-			str.append(i);
+			str+=i;
 		}
 	}
 }

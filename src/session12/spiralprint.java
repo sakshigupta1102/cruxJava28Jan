@@ -5,14 +5,8 @@ import java.util.Arrays;
 public class spiralprint {
 
 	public static void main(String[] args) {
-//		int[][] arr = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
-//		spiralprint(arr);
-		int[] arr1  = {2,8,9,3,4,6,8,3,2,1};
-		Arrays.sort(arr1);
-		for(int i=0;i<arr1.length;i++){
-			System.out.print(arr1[i]+" ");
-		}
-		
+		int[][] arr = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+		spiralprint(arr);
 
 	}
 	public static void spiralprint(int[][] arr){
