@@ -1,7 +1,7 @@
 package session23;
 public class wordsearch {
 	public static void main(String[] args) {
-		char[][] board = { { 'R', 'A', 'M', 'X' }, { 'X', 'X', 'X', 'X' },
+		char[][] board = { { 'R', 'A', 'M', 'U' }, { 'X', 'X', 'X', 'X' },
 				{ 'X', 'X', 'X', 'X' }, { 'X', 'X', 'X', 'X' } };
 		System.out.println(exist(board, "RAMU"));
 	}
