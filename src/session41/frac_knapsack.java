@@ -1,9 +1,7 @@
 package session41;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-
 public class frac_knapsack {
 	public static void main(String[] args) {
 		int cap = 50;
