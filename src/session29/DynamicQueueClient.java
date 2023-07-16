@@ -1,7 +1,7 @@
 package session29;
 public class DynamicQueueClient {
 	public static void main(String[] args) throws Exception {
-		DynamicQueue dq = new DynamicQueue();
+		Queue dq = new DynamicQueue();
 		dq.enqueue(10);
 		dq.enqueue(20);
 		dq.enqueue(30);
